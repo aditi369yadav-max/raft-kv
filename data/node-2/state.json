@@ -1,6 +1,6 @@
 {
-  "currentTerm": 107,
-  "votedFor": 1,
+  "currentTerm": 110,
+  "votedFor": 2,
   "log": [
     {
       "term": 107,
@@ -9043,6 +9043,13 @@
         "type": "SET",
         "key": "key:999",
         "value": "value:999"
+      }
+    },
+    {
+      "term": 110,
+      "index": 1005,
+      "command": {
+        "type": "NOOP"
       }
     }
   ]

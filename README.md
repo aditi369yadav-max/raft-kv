@@ -1,3 +1,18 @@
+## Demo
+
+### Leader Election
+![Election](screenshots/election.jpg)
+
+### Crash Recovery — Node 2 recovers state after restart  
+![Recovery](screenshots/recovery.jpg)
+
+### 3-Node Cluster
+![Cluster](screenshots/cluster.jpg)
+
+### Benchmark Results
+- Write: **177 ops/sec** (each write goes through full 3-node Raft consensus)
+- Read:  **2,597 ops/sec**
+
 # Raft KV — Distributed Key-Value Store with Raft Consensus
 
 A distributed key-value store built from scratch implementing the full Raft consensus algorithm — leader election, log replication, and fault tolerance across a 3-node cluster.
